@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\czedr\\Desktop\\TimeTracker\\Admin\\TimeTracker\\",
+  "WorkspaceRootPath": "E:\\TimeTracker\\Admin\\TimeTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4353CC62-686E-46CA-9CE2-AB1F946F9263}|TimeTracker.csproj|c:\\users\\czedr\\desktop\\timetracker\\admin\\timetracker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4353CC62-686E-46CA-9CE2-AB1F946F9263}|TimeTracker.csproj|e:\\timetracker\\admin\\timetracker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4353CC62-686E-46CA-9CE2-AB1F946F9263}|TimeTracker.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4353CC62-686E-46CA-9CE2-AB1F946F9263}|TimeTracker.csproj|e:\\timetracker\\admin\\timetracker\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4353CC62-686E-46CA-9CE2-AB1F946F9263}|TimeTracker.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4353CC62-686E-46CA-9CE2-AB1F946F9263}|TimeTracker.csproj|e:\\timetracker\\admin\\timetracker\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4353CC62-686E-46CA-9CE2-AB1F946F9263}|TimeTracker.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,15 +22,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dashboard.cs",
+              "DocumentMoniker": "E:\\TimeTracker\\Admin\\TimeTracker\\dashboard.cs",
+              "RelativeDocumentMoniker": "dashboard.cs",
+              "ToolTip": "E:\\TimeTracker\\Admin\\TimeTracker\\dashboard.cs",
+              "RelativeToolTip": "dashboard.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvxgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:36:22.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dashboard.cs [Design]",
+              "DocumentMoniker": "E:\\TimeTracker\\Admin\\TimeTracker\\dashboard.cs",
+              "RelativeDocumentMoniker": "dashboard.cs",
+              "ToolTip": "E:\\TimeTracker\\Admin\\TimeTracker\\dashboard.cs [Design]",
+              "RelativeToolTip": "dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:24:25.719Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\czedr\\Desktop\\TimeTracker\\Admin\\TimeTracker\\Form1.cs",
+              "DocumentMoniker": "E:\\TimeTracker\\Admin\\TimeTracker\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\czedr\\Desktop\\TimeTracker\\Admin\\TimeTracker\\Form1.cs [Design]",
+              "ToolTip": "E:\\TimeTracker\\Admin\\TimeTracker\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T11:37:58.068Z",

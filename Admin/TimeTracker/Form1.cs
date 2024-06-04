@@ -16,5 +16,16 @@ namespace TimeTracker
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //login user
+            }catch(Exception ex)
+            {
+                //catch error
+            }
+        }
     }
 }
