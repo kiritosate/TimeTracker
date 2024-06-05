@@ -61,6 +61,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "Events";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -73,6 +74,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "Attendance";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -85,12 +87,15 @@
             this.button4.TabIndex = 8;
             this.button4.Text = "Records";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::TimeTracker.Properties.Resources._307752444_478171747656470_7752403267163031436_n;
             this.pictureBox1.Location = new System.Drawing.Point(124, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(235, 209);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
@@ -108,6 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(493, 569);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);

@@ -26,5 +26,20 @@ namespace TimeTracker
                 this.Close();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new events_form().Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new attendance_form().Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

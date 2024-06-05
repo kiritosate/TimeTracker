@@ -1,0 +1,84 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+}
+
+.panel{
+    position: absolute;
+    background-color: black;
+    color: white;
+    height: 85vh;
+    border-radius: 5px;
+    padding: .5em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#qr-reader{
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .panel{
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .panel{
+        width: 333px;
+    }
+}
+
+.results-data{
+    text-align: left;
+}
+.results-data form>input[type="text"]
+{
+    pointer-events: none;
+    color: white;
+    background-color: black;
+    width: 60%;
+}
+
+input[type="button"], input[type="submit"]
+{
+    padding: .5em .7em .5em .7em;
+    color: white;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#scan-now, #accept{
+    background-color: green;
+}
+
+.panel h1, .panel h3{
+    line-height: 5px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.btn-pane>span input{
+    position: relative!important;
+}
+.btn-pane{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+}
